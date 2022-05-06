@@ -26,6 +26,7 @@ public class ArraListTest {
         System.out.println("原始数组：");
         System.out.println(arrayList);
         //反转
+        // 测试修改上上传
         Collections.reverse(arrayList);
         System.out.println("collections.reverse(arrList)：");
         System.out.println(arrayList);
