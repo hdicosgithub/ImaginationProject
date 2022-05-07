@@ -33,6 +33,7 @@ public class ArraListTest {
         //自然排序的升序排序
         Collections.sort(arrayList);
         System.out.println("自然升序的结果" + arrayList);
+        System.out.println("自然升序的结果" + arrayList);
         Collections.sort(
                 arrayList, new Comparator<Integer>() {
                     @Override
